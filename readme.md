@@ -2,12 +2,7 @@
 
 The free Body Mass Index calculator, also known as BMI, computes and classifies BMI for children and adults using data obtained from WHO and CDC.
 
-### Screenshots
-
-#### The BMI Calculator Input Form
 ![BMI Calculator Input Form](/assets/images/screenshot-1.png "BMI Calculator Input Form")
-
-#### The BMI Calculator Calculation Results
 ![BMI Calculator Calculation Results](/assets/images/screenshot-2.png "BMI Calculator Calculation Results")
 
 ## Installation
