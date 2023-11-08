@@ -38,8 +38,11 @@ Libraries in use:
 * Add the following code: `<?php display_ci_bmi_calculator(); ?>` to your template where you would like the BMI Calculator to appear.
 
 ## Screenshots
-1. The BMI Calculator Input Form.
-2. The BMI Calculator Calculation Results.
+![BMI Calculator Input Form](/assets/images/screenshot-1.png?raw=true "BMI Calculator Input Form")
+**The BMI Calculator Input Form**
+
+![BMI Calculator Calculation Results](/assets/images/screenshot-1.png?raw=true "BMI Calculator Calculation Results")
+**The BMI Calculator Calculation Results**
 
 ## Changelog
 
