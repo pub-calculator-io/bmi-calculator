@@ -1,21 +1,10 @@
-# BMI Calculator by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
-> Contributors: calculatorio
-> Tags: 
-> Requires at least: 5.0
-> Tested up to: 6.4.0
-> Stable tag: 1.0.0
-> License: GPLv2 or later
-> License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-The free Body Mass Index calculator, also known as BMI, computes and classifies BMI for children and adults using data obtained from WHO and CDC.
-
-## Description
+# BMI Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
 
 The free Body Mass Index calculator, also known as BMI, computes and classifies BMI for children and adults using data obtained from WHO and CDC.
 
 ### Shortcode
 
-Use the BMI Calculator shortcode:
+Use the BMI Calculator WordPress shortcode:
 
 `[ci_bmi_calculator]`
 
@@ -44,8 +33,3 @@ Libraries in use:
 
 ### The BMI Calculator Calculation Results
 ![BMI Calculator Calculation Results](/assets/images/screenshot-2.png "BMI Calculator Calculation Results")
-
-## Changelog
-
-### 1.0.0
-* Initial release
