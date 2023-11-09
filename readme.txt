@@ -1,6 +1,6 @@
 === BMI Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: bmi, bmi calculator, body mass index, health
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
@@ -12,6 +12,8 @@ The free Body Mass Index calculator, also known as BMI, computes and classifies 
 == Description ==
 
 The free Body Mass Index calculator, also known as BMI, computes and classifies BMI for children and adults using data obtained from WHO and CDC.
+
+[BMI Calculator Homepage](https://www.calculator.io/bmi-calculator/ "BMI Calculator Homepage")
 
 __Shortcode__
 
