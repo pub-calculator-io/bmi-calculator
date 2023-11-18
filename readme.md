@@ -1,4 +1,4 @@
-# BMI Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# BMI Calculator Widget for WordPress
 
 The free Body Mass Index calculator, also known as BMI, computes and classifies BMI for children and adults using data obtained from WHO and CDC.
 
