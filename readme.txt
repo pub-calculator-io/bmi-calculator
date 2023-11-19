@@ -1,4 +1,4 @@
-=== BMI Calculator by www.calculator.io ===
+=== CI Bmi calculator ===
 Contributors: calculatorio
 Tags: bmi, bmi calculator, body mass index, health
 Requires at least: 5.0

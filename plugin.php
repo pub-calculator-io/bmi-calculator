@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: BMI Calculator by www.calculator.io
+Plugin Name: CI Bmi calculator
 Plugin URI: https://www.calculator.io/bmi-calculator/
 Description: The free Body Mass Index calculator, also known as BMI, computes and classifies BMI for children and adults using data obtained from WHO and CDC.
 Version: 1.0.0
