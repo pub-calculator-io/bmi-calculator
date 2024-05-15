@@ -53,7 +53,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col calorie-calculator,bmr-calculator,body-fat-percentage-calculator,ideal-weight-calculator,body-type-calculator,calories-burned-calculator  ">
                 			<p class="input__title">Age</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="age" value="30"  />
@@ -94,7 +94,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher" onclick="toggleSystem(this)">
+                		<button class="system-switcher" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M10.5 9.5H10C9.44772 9.5 9 9.05228 9 8.5V2.5M4.5 2.5H3.5C2.94772 2.5 2.5 2.94772 2.5 3.5L2.5 9.5M7.5 4.5L10.5 4.5M1.5 5.5L4.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -115,13 +115,15 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -136,8 +138,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><style>
 	@media(min-width: 700px){
         .table-progress-list__item {
@@ -175,7 +176,7 @@
 			<thead>
 				<tr>
 					<th>Body Mass Index (BMI)</td>
-					<td class="semibold" id="bmi-value">24.2 kg/m<sup>2</sup></td>
+					<td id="bmi-value" class="semibold animate">24.2 kg/m<sup>2</sup></td>
 				</tr>
 			</thead>
 			<tbody>
@@ -185,23 +186,23 @@
 				</tr>
 				<tr>
 					<th>Healthy BMI range</td>
-					<td id="bmi-range">18.5 kg/m<sup>2</sup> - 25 kg/m<sup>2</sup></td>
+					<td id="bmi-range" class="animate">18.5 kg/m<sup>2</sup> - 25 kg/m<sup>2</sup></td>
 				</tr>
 				<tr>
 					<th>Healthy weight for the height</td>
-					<td id="weight-range">135.1 lbs - 182.6 lbs</td>
+					<td id="weight-range" class="animate">135.1 lbs - 182.6 lbs</td>
 				</tr>
 				<tr>
 					<th id="weight-gain-label">Gain to reach a BMI of 18.5 kg/m<sup>2</sup></td>
-					<td id="weight-gain">-</td>
+					<td id="weight-gain" class="animate">-</td>
 				</tr>
 				<tr>
 					<th id="weight-lose-label">Lose to reach a BMI of 25 kg/m<sup>2</sup></td>
-					<td id="weight-lose">-</td>
+					<td id="weight-lose" class="animate">-</td>
 				</tr>
 				<tr>
 					<th>Ponderal Index</td>
-					<td id="ponderal-index">13.27 kg/m<sup>3</sup></td>
+					<td id="ponderal-index" class="animate">13.27 kg/m<sup>3</sup></td>
 				</tr>
 			</tbody>
 		</table>

@@ -1,6 +1,6 @@
 === CI Bmi calculator ===
 Contributors: calculatorio
-Tags: bmi, bmi calculator, body mass index, health
+Tags: bmi calculator, calculate bmi online, body mass index tool, bmi for adults, bmi metric calculator, healthy bmi range, bmi calculation formula, bmi assessment, body mass index checker, bmi evaluation online
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
@@ -24,7 +24,6 @@ Add the following code to your template where you would like the BMI Calculator 
 == Screenshots ==
 
 1. The BMI Calculator Input Form.
-2. The BMI Calculator Calculation Results.
 
 == Installation ==
 
